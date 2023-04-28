@@ -1,0 +1,103 @@
+.box-img{
+    width: 100;
+    height: 350px;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+body{
+margin: 0;
+padding: 0;
+background: url(imgmy/akashi.png) no-repeat;
+background-size: cover;
+object-fit: cover;
+height: 100vh;
+}
+.box{
+width: 450px;
+background: rgba(68, 3, 3, 0.397);
+padding: 40px;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.box h1{
+font-size: 40px;
+letter-spacing: 4px;
+font-weight: 100;
+margin-top: 20px;
+font-family: 'Instrument Serif', serif;
+}
+.box h5{
+font-size: 18px;
+letter-spacing: 3px;
+font-weight: 100;
+margin: 20px 0;
+}
+.box p{
+text-align: justify;
+font-family: 'Source Code Pro', monospace;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+.box li{
+display: inline-block;
+margin: 6px;
+list-style: none;
+}
+.box li a{
+color: white;
+text-decoration: none;
+font-size: 60px;
+transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+color: #b9b9b9;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    }
+    40% {
+    transform: translateY(-20px);
+    }
+    60% {
+    transform: translateY(-15px);
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.steam {
+    color: #000000b4;
+    animation: bounce 2s infinite alternate;
+}
+
+.telegram {
+    color: #0e8ece93;
+    animation: bounce 2s infinite alternate;
+}
+
+.instagram {
+    color: #fc002ea2;
+    animation: bounce 2s infinite alternate;
+}
+
+
+
